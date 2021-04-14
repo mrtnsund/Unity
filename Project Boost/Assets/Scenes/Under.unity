@@ -97,8 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 04503344be975864694ad5a42bc496c4, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 9caaa44a2c18d644a937ee85dec3cf70, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -400,6 +400,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1811126625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811126617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffb49a3fac7b27c4eabd30c0e98b3ca4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &532291918019564665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -569,6 +581,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Launch Pad
       objectReference: {fileID: 0}
+    - target: {fileID: 5916023924073469542, guid: 36a239e0838d96b489c7ff83ac2c86e3, type: 3}
+      propertyPath: m_TagString
+      value: Friendly
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36a239e0838d96b489c7ff83ac2c86e3, type: 3}
 --- !u!1001 &3907510530388850597
@@ -581,6 +597,10 @@ PrefabInstance:
     - target: {fileID: 4693929914509051176, guid: c440a614709e6f247b26e7b3540d8451, type: 3}
       propertyPath: m_Name
       value: Landing pad
+      objectReference: {fileID: 0}
+    - target: {fileID: 4693929914509051176, guid: c440a614709e6f247b26e7b3540d8451, type: 3}
+      propertyPath: m_TagString
+      value: Finish
       objectReference: {fileID: 0}
     - target: {fileID: 9096843547553098293, guid: c440a614709e6f247b26e7b3540d8451, type: 3}
       propertyPath: m_RootOrder
@@ -635,9 +655,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5715927455130527608, guid: 1520015647207f34ea8df86286d191ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f6c1edf6c1fd514c8759c90365d3ca7, type: 2}
     - target: {fileID: 6825328246673714688, guid: 1520015647207f34ea8df86286d191ff, type: 3}
       propertyPath: m_RootOrder
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6825328246673714688, guid: 1520015647207f34ea8df86286d191ff, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.056326
       objectReference: {fileID: 0}
     - target: {fileID: 6825328246673714688, guid: 1520015647207f34ea8df86286d191ff, type: 3}
       propertyPath: m_LocalPosition.x
@@ -645,7 +673,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6825328246673714688, guid: 1520015647207f34ea8df86286d191ff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.8
+      value: 18.11
       objectReference: {fileID: 0}
     - target: {fileID: 6825328246673714688, guid: 1520015647207f34ea8df86286d191ff, type: 3}
       propertyPath: m_LocalPosition.z
